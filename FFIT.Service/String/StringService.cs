@@ -15,14 +15,10 @@ namespace FFIT.Service.String
         /// <returns></returns>
         public string GetMiddle(string input)
         {
-            if (string.IsNullOrWhiteSpace(input))
-            {
-                return string.Empty;
-            }
 
-            if (input.Length > 1000)
+            if (string.IsNullOrEmpty(input) || input.Length >= 1000)
             {
-                throw new ArgumentOutOfRangeException("Input string length should not be greater than 1000.");
+                throw new ArgumentOutOfRangeException("Input string length should be greater than 0 and lower than 1000.");
             }
 
             return input.Length % 2 == 1 ? 
