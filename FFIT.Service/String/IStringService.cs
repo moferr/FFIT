@@ -9,7 +9,7 @@ namespace FFIT.Service.String
     public interface IStringService
     {
         /// <summary>
-        /// Returns Middle character of the string (If the string length is even, returns two middle characters); 
+        /// Returns middle character of the string (If the string length is even, returns two middle characters); 
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
