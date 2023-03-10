@@ -20,6 +20,11 @@ namespace FFIT.Service.String
                 return string.Empty;
             }
 
+            if (input.Length > 1000)
+            {
+                throw new ArgumentOutOfRangeException("Input string length should not be greater than 1000.");
+            }
+
             return input.Length % 2 == 1 ? 
                 input.Substring(input.Length / 2, 1) // odd string length
                 : 
