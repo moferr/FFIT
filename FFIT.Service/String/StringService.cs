@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FFIT.Service.String
 {
-    public class StringService
+    public class StringService : IStringService
     {
         /// <summary>
         /// Returns Middle character of the string (If the string length is even, returns two middle characters); 
@@ -20,7 +20,10 @@ namespace FFIT.Service.String
                 return string.Empty;
             }
 
-            return input.Length % 2 == 1 ? input.Substring(input.Length / 2, 1) : input.Substring((input.Length / 2) - 1, 2);
+            return input.Length % 2 == 1 ? 
+                input.Substring(input.Length / 2, 1) // odd string length
+                : 
+                input.Substring((input.Length / 2) - 1, 2);// even string length
         }
     }
 }
