@@ -13,7 +13,7 @@ namespace FFIT.Service.MarkdownParser
 
 
         /// <summary>
-        /// 
+        /// Returns parsed string
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
