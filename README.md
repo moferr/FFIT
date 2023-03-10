@@ -5,7 +5,8 @@ Exercise task
 ## Built in
 
 [.Net Core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)  
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/f3c7488df2447fc2ae0f1bc78a761441a3705fb59cc9131b.png)![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/995e6141e80a7f7a6432f3dc44192f9106068252f20a71da.png)
+<span><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CS.svg" height="30px"> 
+<span><span><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dotnetcore/dotnetcore-original.svg" height="30px"> <span>
 
 ## **Questions**
 
