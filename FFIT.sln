@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFIT.ConsoleApp", "FFIT.ConsoleApp\FFIT.ConsoleApp.csproj", "{AB3B68D1-ED23-430F-87E6-7C93D1D7E715}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFIT.Service", "FFIT.Service\FFIT.Service.csproj", "{5C8C7C39-BD97-41CD-9DA6-F7C10907091B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AB3B68D1-ED23-430F-87E6-7C93D1D7E715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3B68D1-ED23-430F-87E6-7C93D1D7E715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3B68D1-ED23-430F-87E6-7C93D1D7E715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8C7C39-BD97-41CD-9DA6-F7C10907091B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8C7C39-BD97-41CD-9DA6-F7C10907091B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8C7C39-BD97-41CD-9DA6-F7C10907091B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8C7C39-BD97-41CD-9DA6-F7C10907091B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
