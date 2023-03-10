@@ -62,14 +62,17 @@ public class FormatValidator
              throw new Exception("Format not allowed.");
          }
 
-         if (f.ToLower() == "number")
-             return Int32.TryParse(str, out var _);
-         else if (f.ToLower() == "date")
-             return DateTime.TryParse(str, out var _);
-         else if (f.ToLower() == "timespan")
-             return TimeSpan.TryParse(str, out var _);
-
-         throw new Exception("Unknown format.");
+         switch (f.ToLower())
+         {
+             case "number":
+                 return Int32.TryParse(str, out var _);
+             case "date":
+                 return DateTime.TryParse(str, out var _);
+             case "timespan":
+                 return TimeSpan.TryParse(str, out var _);
+             default: 
+                 throw new Exception("Unknown format.");
+         }
     }
 
 }

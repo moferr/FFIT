@@ -32,10 +32,9 @@ namespace FFIT.Service.FormatValidator
                     return DateTime.TryParse(str, out var _);
                 case "timespan":
                     return TimeSpan.TryParse(str, out var _);
-                default:
-                    throw new Exception("Unknown format."); ;
+                default: 
+                    throw new Exception("Unknown format.");
             }
-
             
         }
 
